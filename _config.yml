@@ -14,7 +14,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Tkfrnfl
+      title: RICE_FROG
 
 description: Stylish Jekyll Theme
 author:
