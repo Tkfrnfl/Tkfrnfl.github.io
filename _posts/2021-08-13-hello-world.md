@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hello test!
-categories: [general, setup, demo]
-tags: [demo,setup]
+categories: [demo]
+tags: [demo]
 fullview: true
 comments: true
 ---
