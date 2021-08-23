@@ -39,6 +39,24 @@ comments: true
 &lt;/select&gt;
 </code></pre>
 
+### svg
+<div>svg 형식의 도형을 만들어주는 태그입니다.</br>view box 기능을 활용하여 도형내의 위치를 지정할 수도 있습니다.</div>
+
+**example**
+
+<pre><code class="HTML"> 
+  <svg width="100%" viewBox="0 0 300 50">
+    <text x="10%" y="70%" fill="#ffffff" font-family="'Arial', cursive">텍스트
+    </text>
+  </svg>
+
+   &lt;svg width="100%" viewBox="0 0 300 50"&gt;
+     &lt;text x="10%" y="70%" fill="#ffffff" font-family="'Arial', cursive"&gt;텍스트
+     &lt;/text&gt;
+   &lt;/svg&gt;
+
+
+</code></pre>
 
 
 
