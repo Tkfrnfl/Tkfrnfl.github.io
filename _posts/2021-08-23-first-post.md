@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 몰랐던 html태그들의 기능
-categories: [html]
-tags: [html]
+categories: [html,react]
+tags: [html,react]
 fullview: true
 comments: true
 ---
@@ -58,7 +58,25 @@ comments: true
 
 </code></pre>
 
+### Modal
+리엑트에서 modal 이란 이벤트 변경없이 새 창을 띄워 작업을 이어가주도록 하는것 입니다.
 
+**example**
+
+<pre><code class="JavaScript"> 
+
+const SelectModal = ({state}) =&gt; {
+  let { selectModal} = state
+  return (
+     &lt;div&gt;
+       &lt;Modal isOpen={selectModal}&gt;
+           &lt;div className="line"&gt;  &lt;/div&gt;
+       &lt;/Modal&gt;
+     &lt;/div&gt;
+  )
+}
+
+</code></pre>
 
 
 
