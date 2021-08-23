@@ -40,7 +40,7 @@ comments: true
 </code></pre>
 
 ### svg
-<div>svg 형식의 도형을 만들어주는 태그입니다.</br>view box 기능을 활용하여 도형내의 위치를 지정할 수도 있습니다.</div>
+<div>svg 형식의 도형을 만들어주는 태그입니다.<br>view box 기능을 활용하여 도형내의 위치를 지정할 수도 있습니다.</div>
 
 **example**
 
