@@ -14,10 +14,6 @@ comments: true
 해보았습니다.
 
 ### select
-<div>드롭바를 만들어주는 태그입니다. 내부에 option  태그를 포함합니다.</div>
-
-### option
-<div>드롭바 항목들을 만들어주는 태그입니다.<div>
 
 **example**
 
