@@ -33,10 +33,10 @@ comments: true
             <option>Site2</option>
 </select>
 
- &ltselect id="select" className="form-control"&gt
-            &ltoption &gtSite&lt/option&gt
-            &ltoption&gtSite2&lt/option&gt
-&lt/select&gt
+ &lt;select id="select" className="form-control"&gt;
+            &lt;option &gt;Site&lt;/option&gt;
+            &lt;option&gt;Site2&lt;/option&gt;
+&lt;/select&gt;
 </code></pre>
 
 
