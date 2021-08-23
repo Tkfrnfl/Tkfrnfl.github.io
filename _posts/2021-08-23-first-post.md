@@ -32,6 +32,11 @@ comments: true
             <option >Site</option>
             <option>Site2</option>
 </select>
+
+ &ltselect id="select" className="form-control"&gt
+            &ltoption &gtSite&lt/option&gt
+            &ltoption&gtSite2&lt/option&gt
+&lt/select&gt
 </code></pre>
 
 
