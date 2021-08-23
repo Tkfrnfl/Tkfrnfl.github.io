@@ -59,7 +59,7 @@ comments: true
 </code></pre>
 
 ### Modal
-리엑트에서 modal 이란 이벤트 변경없이 새 창을 띄워 작업을 이어가주도록 하는것 입니다.
+리엑트에서 modal 이란 이벤트 변경없이 새 창을 띄워 작업을 이어가주도록 하는것 입니다. modal 태그를 이용하며, 다른 compoents에서 modal을 불러오는 형식으로 사용합니다.
 
 **example**
 
