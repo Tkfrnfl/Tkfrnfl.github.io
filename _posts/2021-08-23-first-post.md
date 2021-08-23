@@ -7,7 +7,7 @@ fullview: true
 comments: true
 ---
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"></link> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script> <script>hljs.initHighlightingOnLoad();</script>
+
 
 
 첫 포스트입니다. 프론트 작업을하며 몰랐던 태그들과 기능들을 정리
@@ -22,12 +22,7 @@ comments: true
 **example**
 
 
-<pre><code class="HTML"> 
-<select id="select" name="family_site" className="form-control" onChange={this.handleFamilyState} defaultValue="">
-            <option value="" disabled>Family Site</option>
-            <option>Themusio</option>
-</select>
-</code></pre>
+
 
 
 
