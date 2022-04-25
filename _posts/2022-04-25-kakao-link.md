@@ -1,8 +1,8 @@
 ---
 layout: post
-title: React type submit
-categories: [react,javascript]
-tags: [react,javascript]
+title: Vue에서 카카오 링크 연동
+categories: [vue,javascript]
+tags: [vue,javascript]
 fullview: true
 comments: true
 ---
