@@ -15,9 +15,9 @@ comments: true
 vue 로 배포한 프로젝트가 크롬에선 잘 되지만 ie 환경에서 먹통이었다.(아예 흰화면만 뜸)<br>
 ie는 개발할때도 볼일이 없어서 아예 생각도 안했는데 몇가지 설정을 해주면 대응 가능하다.<br><br>
 
-참고 링크: <link href="https://realmojo.tistory.com/358"><br>
+참고 링크: <a href="https://realmojo.tistory.com/358">링크</a><br>
 만약 babel, pollyfill이 생소하다면?<br>
-<link href="https://bravenamme.github.io/2020/02/12/what-is-babel/"><br><br>
+<a href="https://bravenamme.github.io/2020/02/12/what-is-babel/">링크</a><br>
 이렇게 세팅 하고도 안되는 기능들이 몇가지 생기는데<br>
 1.나의 경우엔 'daumpostcode' npm 패키지가 ie에서 안되었다.<br>
     => 직접 cdn 불러와서 스크립트 작성으로 해결<br>
