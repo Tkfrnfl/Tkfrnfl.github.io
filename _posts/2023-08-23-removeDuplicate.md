@@ -17,19 +17,3 @@ for 문을 돌면서 이전요소와 다를경우 nums를 바꿔주고  ans를 �
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
  <script>hljs.initHighlightingOnLoad();</script>
 
-
-<pre><code class="HTML"> 
-class Solution {
-    public int removeElement(int[] nums, int val) {
-        int k=0;
-        for(int i=0;i<nums.length;i++){
-            if(nums[i]==val){
-                nums[i]=999;
-                k++;
-            }
-        }
-        Arrays.sort(nums);
-        return nums.length-k;
-    }
-}
-</code></pre>
