@@ -12,7 +12,7 @@ comments: true
 
 배열을 역순으로 보면서 가장 큰값을 계속 업데이트하고 만약 이보다 작을시 이윤값을 저장하여 최대값을 얻어낸다.<br>
 
-<a class="btn btn-default" href="https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150"> 문제 링크
+<a class="btn btn-default" href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/?envType=study-plan-v2&envId=top-interview-150"> 문제 링크
 
 ```java
     public int maxProfit(int[] prices) {
