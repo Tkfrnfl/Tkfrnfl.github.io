@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Hash Table 구현] Linear Probing 방식으로 Hash Table을 구현
+title: Hash Table 구현 Linear Probing 방식으로 Hash Table을 구현
 categories: [leetcode]
 tags: [leetcode]
 fullview: true
