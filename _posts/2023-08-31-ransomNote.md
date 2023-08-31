@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Contains Duplicate II
+title: Ransom Note
 categories: [leetcode]
 tags: [leetcode]
 fullview: true
