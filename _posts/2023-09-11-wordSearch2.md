@@ -73,16 +73,23 @@ comments: true
 
     public List<String> findWords(char[][] board, String[] words) {
 
+        List<String> ans=new ArrayList<>();
         for(int i=0;i< board.length;i++){               //노드에 문자들 추가
-            for(int j=0;j< board[board.length].length;j++){
+            for(int j=0;j< board[board.length-1].length;j++){
                 int [][] visited=new int[12][12];
                 Node current =this.root;
                 dfs(i,j,visited,board,current);
             }
         }
         //찾기
-        for()
-        search()
+        for(int i=0;i<words.length;i++){
+          boolean isTrue= search(words[i]);
+          if(isTrue){
+              ans.add(words[i]);
+          }
+        }
+
+        return ans;
 
     }
     public void dfs(int x ,int y,int [][] visited,char[][] board,Node node){
@@ -93,7 +100,7 @@ comments: true
             x+=xx[i];
             y+=yy[i];
 
-            if(0<=x &&x<board.length && 0<=y &&y<board[board.length].length&&visited[x][y]==0){
+            if(0<=x &&x<board.length && 0<=y &&y<board[board.length-1].length&&visited[x][y]==0){
                 visited[x][y]=1;
                 node.children.put(board[x][y],new Node());
             }
