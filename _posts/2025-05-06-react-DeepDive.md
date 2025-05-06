@@ -85,7 +85,7 @@ return (
 ### 11. useSyncExternalStore
 외부 document, window값 등과 관련된 상태관리필요할때 사용한다.
 
-### 11. 이외 최적화, 보안 관련 팁
+### 12. 이외 최적화, 보안 관련 팁
 - 최적화시 long task를 중점으로 분석한다(light house를 통해 long task확인가능)
 - rendering block: &lt;head&gt; 내부 스타일은 다운로드 후에 랜더되므로 이 속성을 수정해준다.
 
